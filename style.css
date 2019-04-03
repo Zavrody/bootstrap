@@ -108,7 +108,8 @@ article a {
   justify-content: flex-start;
   align-items: start; }
   .graph-container img {
-    max-height: 438px; }
+    max-height: 438px;
+    width: 90%; }
 
 .article-03 .top {
   background-color: #002e5b; }
@@ -130,6 +131,9 @@ article a {
   .article-03 .funfact p {
     font-size: 12px;
     letter-spacing: 2px; }
+
+video {
+  width: 100%; }
 
 .play_button {
   position: absolute; }
@@ -194,12 +198,11 @@ footer {
     padding-top: 50px;
     padding-bottom: 100px; }
 
-  #myChart {
-    width: 100%;
-    margin-top: 25px; }
-
   .article-01 a {
-    display: inline; } }
+    display: inline; }
+
+  .graph-container img {
+    width: 100%; } }
 @media (max-width: 575px) {
   .carousel-item h1 {
     text-align: center;
